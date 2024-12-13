@@ -10,7 +10,7 @@ export function createTextGeometry (opt) {
   return new TextGeometry(opt)
 }
 
-class TextGeometry extends BufferGeometry {
+export class TextGeometry extends BufferGeometry {
   constructor(opt){
     super();
 
